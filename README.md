@@ -1,4 +1,5 @@
-## 🅰️ Conteúdo do Curso / Projeto Angular
+## 🅰️ Conteúdo do Curso / Projeto Angular  
+[Curso “Formação Angular (Angular 15: Do Iniciante ao Especialista)” na Udemy](https://www.udemy.com/course/curso-de-angular-15-do-iniciante-ao-especialista/)  
 
 ### 📦 Tecnologias e Versões
 - Angular v15+
