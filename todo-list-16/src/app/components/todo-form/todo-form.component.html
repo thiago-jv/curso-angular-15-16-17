@@ -1,0 +1,26 @@
+<form [formGroup]="todosForm" (ngSubmit)="handleCreateNewTodo()">
+  <section class="todo_form_card">
+
+    <h1 class="todo_form_title">Adicionar Tarefa</h1>
+
+    <mat-form-field class="todo_form_input" appearance="outline" color="accent">
+      <mat-label>Nome</mat-label>
+      <input matInput formControlName="title" placeholder="Nome" />
+    </mat-form-field>
+
+    <mat-form-field class="todo_form_input" appearance="outline" color="accent">
+      <mat-label>Descrição</mat-label>
+      <textarea matInput formControlName="description" placeholder="Descrição"></textarea>
+    </mat-form-field>
+
+    <div class="todo_form_actions">
+      <button mat-raised-button color="primary" type="submit" class="todo_form_success_btn">
+        Adicionar
+      </button>
+      <button mat-raised-button color="warn" type="button" (click)="handleCloseModal()">
+        Cancelar
+      </button>
+    </div>
+
+  </section>
+</form>
